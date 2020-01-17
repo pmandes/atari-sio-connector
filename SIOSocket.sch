@@ -1,0 +1,172 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Atari:Atari_SIO_Connector J1
+U 1 1 5DB821E3
+P 6400 3650
+F 0 "J1" H 6728 3946 50  0000 L CNN
+F 1 "Atari_SIO_Connector" H 6728 3855 50  0000 L CNN
+F 2 "Atari:Atari_SIO_Socket" H 6400 3550 50  0001 C CNN
+F 3 "" H 6400 3550 50  0001 C CNN
+	1    6400 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_2Rows-13Pins J2
+U 1 1 5DB82469
+P 5000 3800
+F 0 "J2" V 5096 3412 50  0000 R CNN
+F 1 "Conn_2Rows-13Pins" V 5005 3412 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical" H 5000 3800 50  0001 C CNN
+F 3 "~" H 5000 3800 50  0001 C CNN
+	1    5000 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 3500 4700 3150
+Wire Wire Line
+	4700 3150 6100 3150
+Wire Wire Line
+	6100 3150 6100 3400
+Wire Wire Line
+	4800 3500 4800 3200
+Wire Wire Line
+	4800 3200 5800 3200
+Wire Wire Line
+	6200 3200 6200 3400
+Wire Wire Line
+	4900 3500 4900 3250
+Wire Wire Line
+	4900 3250 5650 3250
+Wire Wire Line
+	6300 3250 6300 3400
+Wire Wire Line
+	5000 3500 5000 3050
+Wire Wire Line
+	5000 3050 6400 3050
+Wire Wire Line
+	6400 3050 6400 3400
+Wire Wire Line
+	5100 3500 5100 3000
+Wire Wire Line
+	5100 3000 5900 3000
+Wire Wire Line
+	6500 3000 6500 3400
+Wire Wire Line
+	5200 3500 5200 2950
+Wire Wire Line
+	5200 2950 5800 2950
+Wire Wire Line
+	4700 4000 4700 4100
+Wire Wire Line
+	4700 4100 6050 4100
+Wire Wire Line
+	6050 4100 6050 3500
+Wire Wire Line
+	4800 4000 4800 4150
+Wire Wire Line
+	6150 4150 6150 3500
+Wire Wire Line
+	4800 4150 6150 4150
+Wire Wire Line
+	4900 4000 4900 4200
+Wire Wire Line
+	4900 4200 6250 4200
+Wire Wire Line
+	6250 4200 6250 3500
+Wire Wire Line
+	5000 4000 5000 4250
+Wire Wire Line
+	5000 4250 6350 4250
+Wire Wire Line
+	6350 4250 6350 3500
+Wire Wire Line
+	5100 4000 5100 4300
+Wire Wire Line
+	5100 4300 6450 4300
+Wire Wire Line
+	6450 4300 6450 3500
+Wire Wire Line
+	5200 4000 5200 4350
+Wire Wire Line
+	5200 4350 6550 4350
+Wire Wire Line
+	6550 4350 6550 3500
+Wire Wire Line
+	5300 4000 5300 4400
+Wire Wire Line
+	5300 4400 6650 4400
+Wire Wire Line
+	6650 4400 6650 3500
+Wire Wire Line
+	6600 3400 6600 2950
+$Comp
+L power:GND #PWR0101
+U 1 1 5DB985E8
+P 5650 3250
+F 0 "#PWR0101" H 5650 3000 50  0001 C CNN
+F 1 "GND" H 5655 3077 50  0000 C CNN
+F 2 "" H 5650 3250 50  0001 C CNN
+F 3 "" H 5650 3250 50  0001 C CNN
+	1    5650 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 5650 3250
+Wire Wire Line
+	5650 3250 6300 3250
+$Comp
+L power:GND #PWR0102
+U 1 1 5DB989EB
+P 5800 3200
+F 0 "#PWR0102" H 5800 2950 50  0001 C CNN
+F 1 "GND" H 5805 3027 50  0000 C CNN
+F 2 "" H 5800 3200 50  0001 C CNN
+F 3 "" H 5800 3200 50  0001 C CNN
+	1    5800 3200
+	1    0    0    -1  
+$EndComp
+Connection ~ 5800 3200
+Wire Wire Line
+	5800 3200 6200 3200
+$Comp
+L power:+5V #PWR0103
+U 1 1 5DB99F77
+P 5900 3000
+F 0 "#PWR0103" H 5900 2850 50  0001 C CNN
+F 1 "+5V" H 5915 3173 50  0000 C CNN
+F 2 "" H 5900 3000 50  0001 C CNN
+F 3 "" H 5900 3000 50  0001 C CNN
+	1    5900 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 5900 3000
+Wire Wire Line
+	5900 3000 6500 3000
+$Comp
+L power:+12V #PWR0104
+U 1 1 5DB9AC25
+P 5800 2950
+F 0 "#PWR0104" H 5800 2800 50  0001 C CNN
+F 1 "+12V" H 5815 3123 50  0000 C CNN
+F 2 "" H 5800 2950 50  0001 C CNN
+F 3 "" H 5800 2950 50  0001 C CNN
+	1    5800 2950
+	1    0    0    -1  
+$EndComp
+Connection ~ 5800 2950
+Wire Wire Line
+	5800 2950 6600 2950
+$EndSCHEMATC
